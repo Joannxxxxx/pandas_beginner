@@ -2,7 +2,7 @@
 ## DAY ZERO 
 ### 20200314 周六
 
-[安装 anaconda](https://www.anaconda.com/distribution/#download-section)
+[下载 anaconda](https://www.anaconda.com/distribution/#download-section)
 
 * Hello Python - 在 Anaconda 中打开 Jupyter Notebook，打印出 Hello World 
 
