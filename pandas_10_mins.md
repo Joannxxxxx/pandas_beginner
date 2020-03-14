@@ -4,7 +4,7 @@
 
 [下载 anaconda](https://www.anaconda.com/distribution/#download-section)
 
-* Hello Python - 在 Anaconda 中打开 Jupyter Notebook，打印出 Hello World 
+* Hello Python - 在 Anaconda 中打开 Jupyter Notebook，打印出 Hello Python 
 
 ## DAY ONE
 ### 20200315 周日
