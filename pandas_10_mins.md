@@ -30,7 +30,7 @@
   
 #### Viewing data
 * head - 仿照示例查看 df 前 10 行（关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/version/0.23.1/generated/pandas.DataFrame.head.html)）
-* tail - 仿照示例查看 df 末 10 行
+* tail - 仿照示例查看 df 末 10 行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.tail.html))
 
 
 
