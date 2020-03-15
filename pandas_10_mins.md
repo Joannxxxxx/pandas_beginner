@@ -29,8 +29,8 @@
 * TAB - 延续昨日的操作，在输入 df2. 后按下 tab 键（在键盘上数下第三行左一），会出现可供使用的函数。**请使用此功能查看 df2 的 index**。（提示：完整代码为 df2.index 。你可以输入 df2.in 之后按下 tab 键，在看到选择框后使用键盘上的方向键（在键盘右下区域）选择需要的函数，选中后按回车键）
   
 #### Viewing data
-* head - 仿照示例查看 df 前 10 行（关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/version/0.23.1/generated/pandas.DataFrame.head.html)）
-* tail - 仿照示例查看 df 末 10 行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.tail.html))
+* head - 仿照示例查看 df 前 5 行（关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/version/0.23.1/generated/pandas.DataFrame.head.html)）
+* tail - 仿照示例查看 df 末 5 行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.tail.html))
 
 
 
