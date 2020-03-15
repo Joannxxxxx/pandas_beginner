@@ -14,7 +14,7 @@
 #### Object creation
 
 * import - 载入 numpy 及 pandas，并命名为 np 与 pd
-* Series - 仿照示例创建包含如下元素的 Series 对象：2，4，6，8，10，np.nan
+* Series - 仿照示例创建包含如下元素的 Series 对象：2,4,6,8,10,np.nan
 * DataFrame - 按照示例创建 DataFrame 对象（两个）
 
 
