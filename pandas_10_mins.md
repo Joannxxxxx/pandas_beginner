@@ -73,7 +73,22 @@
 * loc - 仿照示例获取 df 的 A,C 列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
 * loc - 仿照示例获取 df 20130103 至 20130106 行，也就是数学区间的[20130103,20130106]行的 A,C 列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
 
-**使用 loc 时，在方括号里必须填入行或列的 label，通俗地讲，就是行、列的名字。具体在本例中，就是 dates[3],20130103 (行的名字） 以及 A,C （列的名字）。**
+**用法总结**
+
+使用 loc 时，在方括号里必须填入行或列的 **label**，通俗地讲，就是行、列的名字。具体在本例中，就是 dates[3],20130103 (行的名字） 以及 A,C （列的名字）。
+
+如果我们把 index label 简写为 $indexl$，其中 $i,j = 0,1,……,N-1$，$N$ 为行数，且 $i < j$
+column label 简写为 $columnl$，其中 $k,l = 0,1,……,M-1$，$M$ 为列数，且 $k < l$
+
+
+那么对于连续的切片：
+> $df.loc[indexl_i:indexl_j,columnl_k:columnl_l]$
+
+对于离散的切片：
+> $df.loc[[indexl_i,indexl_j],[columnl_k,columnl_l]]$
+
+对于行连续、列离散的切片(行离散、列连续同理）：
+> $df.loc[indexl_i:indexl_j,[columnl_k,columnl_l]]$
 
 
 
