@@ -69,6 +69,7 @@
 [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
   
 #### Selection
+##### Selection by label
 * loc - 仿照示例获取 df 的 3 行，即 dates[3] 。(提示：index 的 label 为 date）(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
 * loc - 仿照示例获取 df 的 A,C 列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
 * loc - 仿照示例获取 df 20130103 至 20130106 行，也就是数学区间的[20130103,20130106]行的 A,C 列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
@@ -91,5 +92,15 @@ column label 简写为 $columnl$，其中 $k,l = 0,1,……,M-1$，$M$ 为列数
 对于行连续、列离散的切片(行离散、列连续同理）：
 > $df.loc[indexl_i:indexl_j,[columnl_k,columnl_l]]$
 
+## DAY SEVEN
+### 20200321 周六
 
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+  
+#### Selection
+##### Selection by label
+* loc - 使用 loc 获取 20130103 和 20130106 两日的A,C 列 。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
+* at - 仿照示例获取 df 的 3 行 C 列。
+
+##### Selection by position
 
