@@ -17,7 +17,6 @@
 * Series - 仿照示例创建包含如下元素的 Series 对象：2,4,6,8,10,np.nan
 * DataFrame - 按照示例创建 DataFrame 对象（两个）
 
-
 ## DAY TWO
 ### 20200316 周一
 
@@ -32,6 +31,24 @@
 * head - 仿照示例查看 df 前 4 行（关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/version/0.23.1/generated/pandas.DataFrame.head.html)）
 * tail - 仿照示例查看 df 末 4 行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.tail.html))
 
+## DAY THREE
+### 20200317 周二
 
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+  
+#### Viewing data
+* index - 按照示例查看 df 的 index（关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.index.html)）
+* columns - 按照示例查看 df 的 columns(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.columns.html))
+* to_numpy - 按照示例将 df 转为 numpy 格式。**请注意当列的数据类型不同时，to_numpy 的效率将变得很低**。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html))
 
+## DAY FOUR
+### 20200318 周三
+
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+  
+#### Viewing data
+* describe - 按照示例查看 df 的描述性统计（关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html)）
+* T - 按照示例查看 df 的转置(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.T.html))
+* sort_index - 仿照示例将 df 按照 index （日期）从近到远排列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_index.html))
+* sort_values - 仿照示例将 df 按照 A,B 两列从大到小排列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html))
 
