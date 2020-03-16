@@ -52,3 +52,25 @@
 * sort_index - 仿照示例将 df 按照 index （日期）从近到远排列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_index.html))
 * sort_values - 仿照示例将 df 按照 A,B 两列从大到小排列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html))
 
+## DAY FIVE
+### 20200319 周四
+
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+  
+#### Selection
+* [] - 仿照示例获取 df 的 B 列
+* . - 仿照示例获取 df 的 C 列
+* [index_rank : index_rank] - 仿照示例查看 df 的 0 至 4 行（不含），也就是数学区间的[0,4)行
+* [index_value : index_value] - 仿照示例查看 df 的 20130103 至 20130106（含），也就是数学区间的[20130103,20130106]行
+
+## DAY SIX
+### 20200320 周五
+
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+  
+#### Selection
+* loc - 仿照示例获取 df 中 index 列
+* . - 仿照示例获取 df 的 C 列
+* [index_rank : index_rank] - 仿照示例查看 df 的 0 至 4 行，也就是数学区间的[0,4)行
+* [index_value : index_value] - 仿照示例查看 df 的 20130103 至 20130106，也就是数学区间的[20130103,20130106]行
+
