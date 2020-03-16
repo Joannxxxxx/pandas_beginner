@@ -69,8 +69,10 @@
 [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
   
 #### Selection
-* loc - 仿照示例获取 df 中 index 列
-* . - 仿照示例获取 df 的 C 列
-* [index_rank : index_rank] - 仿照示例查看 df 的 0 至 4 行，也就是数学区间的[0,4)行
-* [index_value : index_value] - 仿照示例查看 df 的 20130103 至 20130106，也就是数学区间的[20130103,20130106]行
+* loc - 仿照示例获取 df 的 3 行，即 dates[3] 。(提示：index 的 label 为 date）(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
+* loc - 仿照示例获取 df 的 A,C 列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
+* loc - 仿照示例获取 df 20130103 至 20130106 行，也就是数学区间的[20130103,20130106]行的 A,C 列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
+
+**使用 loc 时，在方括号里必须填入行或列的 label，通俗地讲，就是行、列的名字。具体在本例中，就是 dates[3],20130103 (行的名字） 以及 A,C （列的名字）。**
+
 
