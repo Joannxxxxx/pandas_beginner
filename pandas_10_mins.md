@@ -58,7 +58,7 @@
 [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
   
 #### Selection
-* [] - 仿照示例获取 df 的 B 列
+* [] - 仿照示例获取 df 的 B 列（提示：英文单引号和英文双引号效果相同，选择一种使用即可）
 * . - 仿照示例获取 df 的 C 列
 * [index_rank : index_rank] - 仿照示例查看 df 的 0 至 4 行（不含），也就是数学区间的[0,4)行
 * [index_value : index_value] - 仿照示例查看 df 的 20130103 至 20130106（含），也就是数学区间的[20130103,20130106]行
