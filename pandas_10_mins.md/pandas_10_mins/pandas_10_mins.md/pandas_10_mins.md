@@ -103,7 +103,7 @@ column label 简写为 $columnl$，下标 $k,l = 0,1,……,M-1$，$M$ 为列数
 * at - 仿照示例获取 df 的 3 行 C 列。
 
 ##### Selection by position
-* iloc - 使用 iloc 获取 df 的 3 行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
+* iloc - 仿照示例使用 iloc 获取 df 的 3 行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
 
 
 ## DAY EIGHT 
@@ -126,11 +126,12 @@ column label 简写为 $columnl$，下标 $k,l = 0,1,……,M-1$，$M$ 为列数
   
 ## DAY NINE 
 ### 20200323 周一
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
 #### Selection
 ##### Selection by position
-* iloc - 仿照示例使用 iloc 获取 df 的 3 行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
 * iloc - 仿照示例使用 iloc 获取 df 的 1 行至 4 行（不含）的 0 列至 3 列（不含）(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
 * iloc - 仿照示例使用 iloc 获取 df 的 1 行、 4 行的 0 列、 3 列(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
+* iloc - 仿照示例使用 iloc 获取 df 的 1 至 4 行（不含）(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
 
 
 
