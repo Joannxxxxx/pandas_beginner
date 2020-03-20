@@ -72,7 +72,7 @@
 ##### Selection by label
 * loc - 仿照示例获取 df 的 3 行，即 dates[3] 。(提示：index 的 label 为 date）(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
 * loc - 仿照示例获取 df 的 A,C 列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
-* loc - 仿照示例获取 df 20130103 至 20130106 行的 A,C 列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
+* loc - 仿照示例获取 df 20130103 至 20130106 行，也就是数学区间的[20130103,20130106]行的 A,C 列。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
 
 **用法总结**
 
@@ -99,11 +99,38 @@ column label 简写为 $columnl$，下标 $k,l = 0,1,……,M-1$，$M$ 为列数
   
 #### Selection
 ##### Selection by label
-* loc - 使用 loc 获取 20130103 和 20130106 两日的A,C 列 。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
+* loc - 使用 loc 获取 df 20130103 和 20130106 两日的A,C 列 。(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html))
 * at - 仿照示例获取 df 的 3 行 C 列。
 
 ##### Selection by position
+* iloc - 使用 iloc 获取 df 的 3 行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
 
+
+## DAY EIGHT 
+### 20200322 周日
+
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+
+#### RECAP
+* 载入 numpy 和 pandas 并以约定俗成的简称命名之
+* 创建一个10行8列的随机数矩阵命名为 df，其中列名为 ABCDEFGH
+* 打印 df 的前 5 行
+* 查看 df 的描述性统计
+* 将 df 按照 A 列数值从小到大排序
+* 打印 df 的 C,H 列
+* 打印 df 的 C 至 H 列
+* 打印 df 的 6,9 行
+* 打印 df 的 6 至 9 行（不含）
+* 打印 df 的 6 至 9 行（不含）的 C 至 H 列
+* 打印 df 的 6,9 行的 C,H 列
+  
+## DAY NINE 
+### 20200323 周一
+#### Selection
+##### Selection by position
+* iloc - 仿照示例使用 iloc 获取 df 的 3 行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
+* iloc - 仿照示例使用 iloc 获取 df 的 1 行至 4 行（不含）的 0 列至 3 列（不含）(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
+* iloc - 仿照示例使用 iloc 获取 df 的 1 行、 4 行的 0 列、 3 列(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html))
 
 
 
