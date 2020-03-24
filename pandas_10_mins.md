@@ -153,7 +153,15 @@ df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 * 仿照示例创建 df2 的 E 列，值为 ['T', 'O', 'T', 'T', 'D', 'U']
 * isin - 仿照示例选取 df2 中 E 列值为 T,D,U 的部分(关于函数更详尽的解释见(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.isin.html))
 
-
+## DAY ELEVEN
+### 20200325 周三
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+#### Setting
+* 仿照示例创建 s1，长度为 7，数值任意，其中 index 为 20200206 起的 7 天
+* at - 仿照示例将 df 的 0 行 B 列赋值为 0
+* iat - 仿照示例将 df 的 0 行 0 列赋值为 0
+* 将 df 的 D 列均赋值为 5
+* 仿照示例将 df 中数值为 5 的赋值为其相反数
 
 
 
