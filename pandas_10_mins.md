@@ -163,10 +163,24 @@ df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 * 将 df 的 D 列均赋值为 5
 * 仿照示例将 df 中数值为 5 的赋值为其相反数
 
+## DAY TWELVE
+### 20200326 周四
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+#### Missing data
+* 按照示例创建 df1
+* 按照示例给 E 列 0,1 行赋值为 1
+* dropna - 按照示例对 df1 去除所有含有空值的行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html))
+* fillna - 按照示例将 df1 中所有空值用数值 5 填充(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html))
+* isna - 按照示例判断 df1 中每个值是否为空值[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.isna.html))
 
-
-
-
-
+## DAY TRIRTEEN
+### 20200327 周五
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+#### Operations
+##### Stats
+* mean - 按照示例计算 df 每一列的平均值(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html))
+* mean - 按照示例计算 df 每一行的平均值(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html))
+* shift - 按照示例创建 s 并后移 2 行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shift.html))
+* sub - 按照示例将 df1 每一列与 s 相减(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sub.html))
 
 
