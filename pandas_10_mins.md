@@ -181,6 +181,6 @@ df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 * mean - 按照示例计算 df 每一列的平均值(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html))
 * mean - 按照示例计算 df 每一行的平均值(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html))
 * shift - 按照示例创建 s 并后移 2 行(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shift.html))
-* sub - 按照示例将 df1 每一列与 s 相减(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sub.html))
+* sub - 按照示例将 df 每一列与 s 相减(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sub.html))
 
 
