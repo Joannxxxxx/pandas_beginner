@@ -204,3 +204,14 @@ df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 * str.lower - 按照示例将 s 中元素的字母都变为小写(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.lower.html))
 * str.upper - 仿照示例将 s 中元素的字母都变为大写(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.upper.html))
 * str.capitalize - 仿照示例将 s 中元素的首字母变为大写(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.capitalize.html))
+
+## DAY SIXTEEN
+### 20200330 周一
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+#### Merge
+##### Concat
+* 按照示例创建 df
+* 按照示例将 df 切成三份
+* concat - 按照示例将切割后的 pieces 拼接起来(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.concat.html))
+* 仿照示例将 df 按列切成三份，每一份分别拥有1、2、1列
+* concat - 仿照示例将按列切割后的拼接起来(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.concat.html))
