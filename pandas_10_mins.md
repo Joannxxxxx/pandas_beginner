@@ -215,3 +215,20 @@ df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 * concat - 按照示例将切割后的 pieces 拼接起来(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.concat.html))
 * 仿照示例将 df 按列切成三份，每一份分别拥有1、2、1列
 * concat - 仿照示例将按列切割后的拼接起来(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.concat.html))
+
+## DAY SEVENTEEN
+### 20200331 周二
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+#### Merge
+##### Join
+* 按照示例创建数据框 left 和 right
+* merge - 按照示例以 key 为主键合并 left 和 right(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html))
+* 按照示例创建数据框 left 和 right
+* merge - 按照示例以 key 为主键合并 left 和 right(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html))
+
+#### Grouping
+* 按照示例创建数据框 df
+* groupby & sum - 按照示例将 df 按 A 列分组对有数值的列求和(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html))
+* groupby & sum - 按照示例将 df 按 A,B 列分组对有数值的列求和(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html))
+* groupby & sum - 仿照示例将 df 按 A 列分组对 C 列求和(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html))
+* groupby & mean - 仿照示例将 df 按 B 列分组对 D 列求平均(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html))
