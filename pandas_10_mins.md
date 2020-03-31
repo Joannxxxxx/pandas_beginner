@@ -259,5 +259,6 @@ df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 * date_range - 按照示例创建以时间序列 rng 为 index 的随机数数据框 ts (关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.date_range.html))
 * resample & sum - 仿照示例对 ts 按 30S 进行重采样并求和(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.resample.html))
 * date_range - 按照示例创建以时间序列 rng 为 index 的随机数数据框 ts (关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.date_range.html))
-* ts.tz_localize - 按照示例将 ts 索引上的时间序列设定为 UTC 时间
+* ts.tz_localize - 按照示例将 ts 索引上的时间序列设定为 UTC 时间(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tz_localize.html))
+
 
