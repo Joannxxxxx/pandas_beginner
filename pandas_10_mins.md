@@ -232,3 +232,32 @@ df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 * groupby & sum - 按照示例将 df 按 A,B 列分组对有数值的列求和(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html))
 * groupby & sum - 仿照示例将 df 按 A 列分组对 C 列求和(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html))
 * groupby & mean - 仿照示例将 df 按 B 列分组对 D 列求平均(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html))
+
+## DAY EIGHTEEN
+### 20200401 周三
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+#### Reshaping
+##### Stack
+* 按照示例创建 tuples 和 index 并打印显示
+* 按照示例创建 df 并打印显示
+* 按照示例创建 df2 并打印显示
+* stack - 按照示例对 df2 进行堆叠(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.stack.html))
+* unstack - 按照示例对数据框 stack 进行去堆叠(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.unstack.html))
+* unstack - 按照示例对数据框 stack 按 level = 1 进行去堆叠(**提示：数据框 stack 共有三层 index，分别为 first,second,A/B, 对应 level 0,1,2**)(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.unstack.html))
+* unstack - 按照示例对数据框 stack 按 level = 0 进行去堆叠(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.unstack.html))
+* unstack - 仿照示例对数据框 stack 按 level = 2进行去堆叠(**提示：数据框 stack A/B 这个 index 的 level 为 2，同时，由于它在 index 中排在最末，也可表示为 level = -1。unstack 默认 level 参数为 -1**) (关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.unstack.html))
+
+## DAY NINETEEN
+### 20200402 周四
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+#### Reshaping
+##### Pivot tables
+* 按照示例创建 df 并打印显示
+* pivot_table - 按照示例创建 df 的数据透视表
+
+#### Time series
+* date_range - 按照示例创建以时间序列 rng 为 index 的随机数数据框 ts (关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.date_range.html))
+* resample & sum - 仿照示例对 ts 按 30S 进行重采样并求和(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.resample.html))
+* date_range - 按照示例创建以时间序列 rng 为 index 的随机数数据框 ts (关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.date_range.html))
+* ts.tz_localize - 按照示例将 ts 索引上的时间序列设定为 UTC 时间
+
