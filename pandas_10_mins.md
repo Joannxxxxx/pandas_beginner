@@ -260,5 +260,20 @@ df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 * resample & sum - 仿照示例对 ts 按 30S 进行重采样并求和(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.resample.html))
 * date_range - 按照示例创建以时间序列 rng 为 index 的随机数数据框 ts (关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.date_range.html))
 * ts.tz_localize - 按照示例将 ts 索引上的时间序列设定为 UTC 时间(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tz_localize.html))
+* tz_convert - 按照示例将 ts_utc 索引上的时间从 UTC 时间转为美国东部时间(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tz_localize.html))
 
+## DAY NINETEEN
+### 20200402 周四
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+#### Time series
+* date_range - 按照示例创建以时间序列 rng 为 index 的随机数数据框 ts (关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.date_range.html))
+* to_period - 按照示例将数据框 ts 的时间戳索引转为时期索引(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_period.html))
+* to_period - 仿照示例将数据框 ts 的时间戳索引转为以季度为时期的索引(提示：freq='Q')(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_period.html))
+* to_period - 仿照示例将数据框 ts 的时间戳索引转为以年为时期的索引(提示：freq='Y')(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_period.html))
+* to_timestamp - 按照示例将数据框 ps 的时期索引转为时间戳索引(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_timestamp.html))
+* period_range - 按照示例创建以时间序列 prng 为 index 的随机数数据框 ts (关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.period_range.html))
+* 打印 prng
+* asfreq - 将 prng 转为以月为频率的时间序列，返回值为每个季度的结束月(**提示：比如 Q1 为 1月至3月，则 Q1 的起始月为1月，最末月为3月。参数 how = 'start' 表示选择起始期返回，how = 'end' 表示选择最末期返回，它们可直接缩写为 's', 'e'**) (关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.asfreq.html))
+* asfreq - 仿照示例将 prng 转为以月为频率的时间序列，返回值为每个季度的结束月，并在此基础上增加一个月(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.asfreq.html))
+* asfreq - 仿照示例将 prng 转为以月为频率的时间序列，返回值为每个季度的结束月，并在此基础上增加一个月，然后将其转换为以小时为频率的时间序列，返回值为每天的起始小时，并在此基础上增加 10 个小时(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.asfreq.html))
 
