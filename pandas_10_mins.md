@@ -277,3 +277,28 @@ df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 * asfreq - 仿照示例将 prng 转为以月为频率的时间序列，返回值为每个季度的结束月，并在此基础上增加一个月(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.asfreq.html))
 * asfreq - 仿照示例将 prng 转为以月为频率的时间序列，返回值为每个季度的结束月，并在此基础上增加一个月，然后将其转换为以小时为频率的时间序列，返回值为每天的起始小时，并在此基础上增加 10 个小时(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.asfreq.html))
 
+## DAY TWENTY ONE
+### 20200404 周六
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+#### Time series
+*  按照示例创建 df
+*  astype - 按照示例将 df 的 raw_grade 列数据类型转为 category(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.astype.html))
+*  cat.categories - 按照示例给予每一类别更有意义的命名(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.cat.categories.html))
+* cat.set_categories - 按照示例为 df 的 grade 列设置标签集(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.cat.set_categories.html))
+* 打印 df 的 grade 列
+* sort_values - 按照示例将 df 按照 grade 列排序(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html))
+* groupby - 按照示例将 df 按照 grade 列分组并计算每组个数(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html))
+
+## DAY TWENTY TWO
+### 20200405 周日
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+#### Plotting
+*  按照示例载入 matplotlib.pyplot
+*  按照示例创建时间序列 ts
+*  cumsum - 按照示例对 ts 计算累加(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.cumsum.html))
+*  plot - 按照示例绘制 ts(关于函数更详尽的解释见[官方文档](https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.plot.html))
+*  按照示例创建时间序列 df
+*  cumsum - 按照示例对 df 计算累加(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.cumsum.html))
+*  plt.figure - 按照示例创建画布(关于函数更详尽的解释见[官方文档](https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.figure.html))
+*  plot - 按照示例绘制 df(关于函数更详尽的解释见[官方文档](https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.plot.html)) 
+*  pyplot.legend - 按照示例使图例位于最佳位置(关于函数更详尽的解释见[官方文档](https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.legend.html)) 
