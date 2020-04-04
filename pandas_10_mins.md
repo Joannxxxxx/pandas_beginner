@@ -280,7 +280,7 @@ df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 ## DAY TWENTY ONE
 ### 20200404 周六
 [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
-#### Time series
+#### Categoricals
 *  按照示例创建 df
 *  astype - 按照示例将 df 的 raw_grade 列数据类型转为 category(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.astype.html))
 *  cat.categories - 按照示例给予每一类别更有意义的命名(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.cat.categories.html))
