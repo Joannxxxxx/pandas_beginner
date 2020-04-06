@@ -314,7 +314,7 @@ df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 
 ##### Excel
 * to_excel - 按照示例将 df 以 xlsx 文件的格式保存到本地(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_excel.html)) 
-* read_excel - 按照示例读取刚刚保存的文件(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.htmll)) 
+* read_excel - 按照示例读取刚刚保存的文件(关于函数更详尽的解释见[官方文档](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)) 
 
 ****
 end
