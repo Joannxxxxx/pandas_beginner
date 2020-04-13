@@ -43,27 +43,20 @@
 
 ## DAY SEVEN
 ### 20200413 周一
-[pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/02_Filtering_%26_Sorting/Euro12/Exercises.ipynb)
+[pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/02_Filtering_%26_Sorting/Fictional%20Army/Exercise.ipynb)
 #### 02_Filtering_&_Sorting
-##### Euro12
-完成 step 1 至 step 14 （含）
+##### Fictional Army
+完成 step 1 至 step 9 （含）
 
 ## DAY EIGHT
 ### 20200414 周二
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/02_Filtering_%26_Sorting/Fictional%20Army/Exercise.ipynb)
 #### 02_Filtering_&_Sorting
 ##### Fictional Army
-完成 step 1 至 step 9 （含）
+完成 step 10 至 step 18 （含）
 
 ## DAY NINE
 ### 20200415 周三
-[pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/02_Filtering_%26_Sorting/Fictional%20Army/Exercise.ipynb)
-#### 02_Filtering_&_Sorting
-##### Fictional Army
-完成 step 10 至 step 18 （含）
-
-## DAY TEN
-### 20200416 周四
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/03_Grouping/Alcohol_Consumption/Exercise.ipynb)
 #### 03_Grouping
 ##### Alcohol_Consumption
