@@ -111,29 +111,23 @@
 ##### Housing Market
 完成 step 1 至 step 7 （含）
 
+
 ## DAY SEVENTEEN
 ### 20200423 周四
-[pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/06_Stats/US_Baby_Names/Exercises.ipynb)
-#### 06_Stats
-##### US - Baby Names
-完成 step 1 至 step 13 （含）
-
-## DAY EIGHTEEN
-### 20200424 周五
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/06_Stats/Wind_Stats/Exercises.ipynb)
 #### 06_Stats
 ##### Wind Statistics
 完成 step 1 至 step 16 （含）
 
-## DAY NINETEEN
-### 20200425 周六
+## DAY EIGHTEEN
+### 20200424 周五
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/07_Visualization/Chipotle/Exercises.ipynb)
 #### 07_Visualization
 ##### Visualizing Chipotle's Data
 完成 step 1 至 step 7 （含）
 
-## DAY TWENTY
-### 20200426 周日
+## DAY NINETEEN
+### 20200425 周六
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/07_Visualization/Tips/Exercises.ipynb)
 #### 07_Visualization
 ##### Tips
@@ -141,8 +135,8 @@
 
 完成 step 1 至 step 12 （含）
 
-## DAY TWENTY ONE 
-### 20200427 周一
+## DAY TWENTY
+### 20200426 周日
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/07_Visualization/Titanic_Desaster/Exercises.ipynb)
 #### 07_Visualization
 ##### Visualizing the Titanic Disaster
@@ -150,32 +144,32 @@
 
 完成 step 1 至 step 8 （含）
 
-## DAY TWENTY TWO
-### 20200428 周二
+## DAY TWENTY ONE
+### 20200427 周一
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/09_Time_Series/Apple_Stock/Exercises.ipynb)
 #### 09_Time_Series/Apple_Stock
 ##### Apple_Stock
 
 完成 step 1 至 step 12 （含）
 
-## DAY TWENTY THREE
-### 20200429 周三
+## DAY TWENTY TWO
+### 20200428 周二
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/09_Time_Series/Investor_Flow_of_Funds_US/Exercises_with_code_and_solutions.ipynb)
 #### 09_Time_Series/Apple_Stock
 ##### Investor_Flow_of_Funds_US
 
 完成 step 1 至 step 10 （含）
 
-## DAY TWENTY FOUR
-### 20200430 周四
+## DAY TWENTY THREE
+### 20200429 周三
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/10_Deleting/Iris/Exercises.ipynb)
 #### 10_Deleting
 ##### Iris
 
 完成 step 1 至 step 11 （含）
 
-## DAY TWENTY FIVE
-### 20200501 周五
+## DAY TWENTY FOUR
+### 20200430 周四
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/10_Deleting/Wine/Exercises.ipynb)
 #### 10_Deleting
 ##### Wine
