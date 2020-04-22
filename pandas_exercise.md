@@ -117,6 +117,8 @@
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/06_Stats/Wind_Stats/Exercises.ipynb)
 #### 06_Stats
 ##### Wind Statistics
+[数据路径](https://raw.githubusercontent.com/Joannxxxxx/pandas_exercises/master/06_Stats/Wind_Stats/wind.data)（如无法直接通过 URL 读取可复制粘贴至本地再读取）
+
 完成 step 1 至 step 16 （含）
 
 ## DAY EIGHTEEN
