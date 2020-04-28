@@ -149,7 +149,7 @@
 ## DAY TWENTY ONE
 ### 20200427 周一
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/09_Time_Series/Apple_Stock/Exercises.ipynb)
-#### 09_Time_Series/Apple_Stock
+#### 09_Time_Series
 ##### Apple_Stock
 
 完成 step 1 至 step 12 （含）
@@ -157,7 +157,7 @@
 ## DAY TWENTY TWO
 ### 20200428 周二
 [pandas exercise](https://github.com/Joannxxxxx/pandas_exercises/blob/master/09_Time_Series/Investor_Flow_of_Funds_US/Exercises_with_code_and_solutions.ipynb)
-#### 09_Time_Series/Apple_Stock
+#### 09_Time_Series
 ##### Investor_Flow_of_Funds_US
 
 完成 step 1 至 step 10 （含）
